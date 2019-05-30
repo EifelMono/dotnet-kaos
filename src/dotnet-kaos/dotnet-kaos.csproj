@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>dotnet_kaos</RootNamespace>
+    <LangVersion>preview</LangVersion>
+    <IsPackable>true</IsPackable>
+    <PackAsTool>true</PackAsTool>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EifelMono.Fluent" Version="0.0.15" />
+    <PackageReference Include="System.CommandLine.Experimental" Version="0.2.0-alpha.19272.1" />
+    <PackageReference Include="System.Interactive.Async" Version="4.0.0-preview.1.build.745" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Runtime">
+      <HintPath>..\..\..\..\..\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\3.0.0-preview5-27626-15\ref\netcoreapp3.0\System.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.182
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-kaos.Server", "src\dotnet-kaos.Server\dotnet-kaos.Server.csproj", "{FB60EECD-C1AE-48A4-B87E-708870CE3EB6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-kaos.Client", "src\dotnet-kaos.Client\dotnet-kaos.Client.csproj", "{B7BD5704-E26D-42AA-A363-27F48C5D0B83}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-kaos.Shared", "src\dotnet-kaos.Shared\dotnet-kaos.Shared.csproj", "{49E7C241-323B-4D91-A7F1-68355282A205}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-kaos", "src\dotnet-kaos\dotnet-kaos.csproj", "{4802DFFD-B7C7-41C9-9AEB-601F31C1AAB7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-kaos.Common", "src\dotnet-kaos.Common\dotnet-kaos.Common.csproj", "{F2F91B34-E48A-478C-ADEE-36BAE148598D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0013F3C2-6E90-462D-8A1A-210A67679CC0}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		build.cake = build.cake
+		global.json = global.json
+		nuget.config = nuget.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB60EECD-C1AE-48A4-B87E-708870CE3EB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB60EECD-C1AE-48A4-B87E-708870CE3EB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB60EECD-C1AE-48A4-B87E-708870CE3EB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB60EECD-C1AE-48A4-B87E-708870CE3EB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7BD5704-E26D-42AA-A363-27F48C5D0B83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7BD5704-E26D-42AA-A363-27F48C5D0B83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7BD5704-E26D-42AA-A363-27F48C5D0B83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7BD5704-E26D-42AA-A363-27F48C5D0B83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49E7C241-323B-4D91-A7F1-68355282A205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49E7C241-323B-4D91-A7F1-68355282A205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49E7C241-323B-4D91-A7F1-68355282A205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49E7C241-323B-4D91-A7F1-68355282A205}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4802DFFD-B7C7-41C9-9AEB-601F31C1AAB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4802DFFD-B7C7-41C9-9AEB-601F31C1AAB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4802DFFD-B7C7-41C9-9AEB-601F31C1AAB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4802DFFD-B7C7-41C9-9AEB-601F31C1AAB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2F91B34-E48A-478C-ADEE-36BAE148598D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2F91B34-E48A-478C-ADEE-36BAE148598D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2F91B34-E48A-478C-ADEE-36BAE148598D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2F91B34-E48A-478C-ADEE-36BAE148598D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4BA90834-25C7-47DE-A1A2-959D8F3187A1}
+	EndGlobalSection
+EndGlobal
